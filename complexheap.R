@@ -55,6 +55,7 @@ Heatmap(zzz,
 name = "Color key", # legend title
 rect_gp = gpar(col = "black"), # cell border
 #col = colorRamp2(c(-2, 0,2),c("#259AFF","#FFFFBF", "#E81D00")),
+#col = colorRamp2(c(-2, 0, 2), c("springgreen", "black", "violet")),
 col = colorRamp2(c(-2, 0, 2), c("green", "black", "red")),
 #heatmap_legend_param=list(color_bar="continuous", legend_direction="vertical", legend_width=unit(5,"cm"), title_position="topcenter", title_gp=gpar(fontsize=8, fontface="bold"),labels_gp = gpar(fontface = "plain",fontsize = 6)),
 
